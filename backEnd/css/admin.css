@@ -1,0 +1,104 @@
+html,body {
+    font-family:"Microsoft YaHei";
+}
+ul,li,div {
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style:none;
+}
+a:hover,a:active,a:focus {
+    text-decoration:none;
+}
+/* login page */
+.lt-aside {
+    width:180px;
+    height:100%;
+    background:#222d32;
+    position:absolute;
+}
+/* 侧边栏 */
+.lt-aside .brand {
+    width:100%;
+    height:50px;
+    background:#367fa9;
+}
+.lt-aside .brand a {
+    color:#fff;
+    line-height:50px;
+    text-align:center;
+    font-weight:bold;
+    display:block;
+    font-size:20px;
+}
+.lt-aside .user {
+    padding:30px 20px;
+}
+.lt-aside .user img {
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+.lt-aside .user span {
+    color:#fff;
+    font-size:12px;
+}
+.lt-aside .menu li a {
+    display:block;
+    height:40px;
+    line-height:40px;
+    color:#aaa;
+    padding-left:30px;
+}
+.lt-aside .menu li i {
+    margin-right:5px;
+}
+.lt-aside .menu li .child {
+    display:none;
+}
+.lt-aside .menu li .child a {
+  display:block;
+  height:30px;
+  line-height:30px;
+  padding-left:50px;
+  font-size:12px;
+}
+/* 内容部分 */
+/* 导航 */
+.lt-section {
+    padding-left:180px;
+}
+.lt-section .menu {
+    padding-left:0;
+}
+.lt-section .lt-nav {
+    height:50px;
+    background-color:#3c8dbc;
+    margin-bottom:20px;
+}
+.lt-section .lt-nav a {
+    font-size:16px;
+    color:#fff;
+    margin-top:14px;
+}
+.lt-section .lt-nav a:first-child {
+    float:left;
+    margin-left:15px;
+}
+.lt-section .lt-nav a:last-child {
+    float:right;
+    margin-right:15px;
+}
+/* 图表 */
+.lt-section .lt-content {
+    margin-top:20px;
+}
+.lt-section .lt-content .chart {
+    float:left;
+    width:45%;
+    height:400px;
+}
+.lt-section .lt-content .chart:first-child {
+    margin-right:10px;
+}
